@@ -1,7 +1,7 @@
 radio.onReceivedStringDeprecated(function (receivedString) {
     if (receivedString == "moving") {
         basic.showIcon(IconNames.StickFigure)
-        music.playTone(988, music.beat(BeatFraction.Half))
+        music.playMelody("- - - - - E D C ", 397)
     } else if (receivedString == "still") {
         basic.clearScreen()
     }
